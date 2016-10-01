@@ -1,0 +1,141 @@
+body,
+html {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.body-container {
+    position: relative;
+    height: 602px;
+    top: 83px;
+    max-height: 100vh;
+    max-width: 1024px;
+    background-image: url('src/back.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+.slide{
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    color: white;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.nav img {
+    position: absolute;
+    width: 28px;
+    top: 275px;
+}
+
+.nav__slide-left {
+    left: 15px;
+}
+
+.nav__slide-right {
+    right: 15px;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.logo {
+    position: absolute;
+    display: inline-block;
+    top: 40px;
+    left: 100px;
+    color: white;
+}
+
+.logo__name {
+    margin: 0;
+    font-size: 54px;
+}
+
+.logo__name-span {
+    position: absolute;
+    top: 5px;
+    font-size: 27px;
+    right: 3px;
+}
+
+.logo__slogan {
+    margin: 0;
+    font-weight: 100;
+    font-size: 15px;
+    padding: 0 0 0 2px;
+}
+
+.grandpa {
+    display: inline-block;
+}
+
+.grandpa__img {
+    position: absolute;
+    left: 365px;
+    height: 350px;
+    top: 40px;
+}
+
+.pill {
+    position: fixed;
+    top: 350px;
+    left: 95px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    z-index: 10;
+}
+
+.pill__img {
+    width: 80px;
+}
+
+.patient {
+    position: absolute;
+    display: inline-block;
+    height: 100px;
+    top: 370px;
+    left: 129px;
+}
+
+.patient__count {
+    position: relative;
+    display: inline-block;
+    color: white;
+    font-size: 21px;
+    margin: 0 7px;
+    z-index: 1;
+}
+
+.patient__roller {
+    position: absolute;
+    top: 0;
+    left: -20px;
+    z-index: 0;
+}
+
+.patient__roller_red {
+    display: block;
+    margin: 0 auto;
+    width: 35px;
+    height: 35px;
+    margin-top: -5px;
+}
+
+.patient__roller_white {
+    width: 70px;
+    margin-right: -4px;
+}
+
+.period {
+    position: absolute;
+    top: 505px;
+    left: 270px;
+}
+
+.period img {
+    width: 160px;
+}
